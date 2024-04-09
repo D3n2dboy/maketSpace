@@ -1,0 +1,65 @@
+// Общие стили писать тут
+//=============================================================================================================================================
+
+// Заголовки
+
+
+// Ссылки
+
+
+// Элементы формы
+input,
+button {
+    font-size: inherit;
+    font-family: inherit;
+    background-color: inherit;
+}
+
+input:focus {
+    outline: 2px solid rgb(245, 108, 17);
+    outline-offset: 3px;
+}
+
+// Прочее
+
+.button {
+    display: inline-block;
+    font-weight: 700;
+    line-height: 24px;
+    cursor: pointer;
+    padding: 18px 38px;
+    background-color: #F78434;
+    color: #fff;
+    border-radius: 29px;
+    transition: background-color 0.2s ease;
+}
+
+.button:hover {
+    color: #fff;
+    background-color: rgb(247, 153, 31);
+
+}
+
+.button:active {
+    background-color: rgb(255, 123, 0);
+    transform: translateY(2px);
+}
+
+.button:focus {
+    outline: 2px solid rgb(245, 108, 17);
+    outline-offset: 3px;
+}
+
+.button:not(:last-child) {
+    margin-right: 20px;
+}
+
+.button__white {
+    color: #323232;
+    background-color: #fff;
+}
+
+.button__white:hover {
+    color: #fff;
+    background-color: #F78434;
+}
