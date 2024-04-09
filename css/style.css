@@ -251,7 +251,7 @@ input:focus {
   display: inline-block;
   width: 30px;
   height: 30px;
-  background: url("/img/header/Icon.svg") 0 0 no-repeat;
+  background: url("../img/header/Icon.svg") 0 0 no-repeat;
 }
 
 /*============HEADER CONTENTs=================*/
@@ -259,7 +259,7 @@ input:focus {
   display: flex;
   position: relative;
   min-height: 676px;
-  background: url("/img/header/bild.jpg") top right no-repeat;
+  background: url("../img/header/bild.jpg") top right no-repeat;
   margin-bottom: 100px;
 }
 
@@ -622,7 +622,7 @@ input:focus {
   left: 29px;
   width: 45px;
   height: 45px;
-  background: url("img/decor/trewle.svg") 0 0/cover no-repeat;
+  background: url("../img/decor/trewle.svg") 0 0/cover no-repeat;
 }
 
 .title__provide {
@@ -708,7 +708,7 @@ input:focus {
   right: -12px;
   width: 170px;
   height: 170px;
-  background: url("/img/decor/circle.png") 0 0 no-repeat;
+  background: url("../img/decor/circle.png") 0 0 no-repeat;
 }
 
 .product__background {
@@ -965,7 +965,7 @@ input:focus {
   position: absolute;
   top: -40px;
   right: -25px;
-  background: url("/img/decor/thanks.svg") 0 0 no-repeat;
+  background: url("..../img/decor/thanks.svg") 0 0 no-repeat;
   width: 80px;
   height: 80px;
 }
@@ -1221,7 +1221,7 @@ input:focus {
   width: 30px;
   height: 30px;
   margin-right: 4px;
-  background: url("/img/header/Icon.svg") 0 0/contain no-repeat;
+  background: url("../img/header/Icon.svg") 0 0/contain no-repeat;
 }
 
 .footer__text {
