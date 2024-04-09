@@ -277,15 +277,13 @@ input:focus {
 
 /*============HEADER CONTENTs=================*/
 
-.no-webp .header__content{
-  background: url("/img/header/bild.jpg") top right no-repeat; }
-
 .header__content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   position: relative;
   min-height: 676px;
+  background: url("/img/header/bild.jpg") top right no-repeat;
   margin-bottom: 100px;
 }
 
@@ -659,15 +657,13 @@ input:focus {
   right: -79px;
 }
 
-.no-webp .product__body .circle2{
-  background: url("/img/decor/circle.png") 0 0 no-repeat; }
-
 .product__body .circle2 {
   position: absolute;
   top: 0px;
   right: -12px;
   width: 170px;
   height: 170px;
+  background: url("/img/decor/circle.png") 0 0 no-repeat;
 }
 
 .product__background {
@@ -1638,7 +1634,3 @@ input:focus {
     text-decoration: underline;
   }
 }
-
-.webp .header__content{ background: url(/img/header/bild.webp) top right no-repeat; }
-
-.webp .product__body .circle2{ background: url(/img/decor/circle.webp) 0 0 no-repeat; }
